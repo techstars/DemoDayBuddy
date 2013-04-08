@@ -6,3 +6,15 @@
     rake db:create
     rake db:migrate
     rails server
+
+* Heroku Setup Steps *
+    heroku apps:create
+    git push heroku master
+    heroku addons | grep POSTGRES
+    heroku pg:wait
+    heroku config | grep HEROKU_POSTGRESQL
+    heroku pg:promote HEROKU_POSTGRESQL_YELLOW_URL
+    heroku pg:info
+    heroku pg:psql
+    heroku run rake db:migrate    
+    heroku run rake db:seed
