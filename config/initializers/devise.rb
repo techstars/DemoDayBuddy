@@ -206,9 +206,9 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   if Rails.env.production?
-    config.omniauth :angellist, 'f3ef6a749583c95f963ef0092e1a5593', '5d374c62a56d2cd6c38779f81a2c87a6', :scope => 'email'
+    config.omniauth :angellist, 'cb044dd7348786a89e02d326fc519414', '68386d8594c78fc694ff406b135d9c9b', :scope => 'email'
   else
-    config.omniauth :angellist, 'f1e2361ee7861790c6b10acb358d4dde', 'd9284b97bcd112798dc0238a553c4084', :scope => 'email'
+    config.omniauth :angellist, '620361e2a92d59dcd619159af8e9a1dd', '7eb9320cc46cc8e3cb3853441ea1830a', :scope => 'email'
   end
 
   # ==> Warden configuration

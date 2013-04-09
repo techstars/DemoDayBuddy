@@ -18,7 +18,7 @@ Startup.create([
 
     ceo_name: 'Sarah Cochrane',
     ceo_email: 'sarah@cloudoptions.com',
-    ceo_avatar_path: '/assets/cloudoptions.png',
+    ceo_avatar_path: '/assets/Sarah.jpg',
   },
   
   { name: 'Conspire',
@@ -29,7 +29,7 @@ Startup.create([
 
     ceo_name: 'Alex Devkar',
     ceo_email: 'alex@goconspire.com',
-    ceo_avatar_path: '/assets/conspire.png',
+    ceo_avatar_path: '/assets/Alex.jpg',
   },
   
   { name: 'DataRobot',
@@ -40,7 +40,7 @@ Startup.create([
 
     ceo_name: 'Jeremy Achin',
     ceo_email: 'jeremy@datarobot.com',
-    ceo_avatar_path: '/assets/datarobot.png',
+    ceo_avatar_path: '/assets/Jeremy.jpg',
   },
   
   { name: 'Drifty',
@@ -51,7 +51,7 @@ Startup.create([
 
     ceo_name: 'Ben Sperry',
     ceo_email: 'ben@drifty.com',
-    ceo_avatar_path: '/assets/drifty.png',
+    ceo_avatar_path: '/assets/Ben.jpg',
   },
   
   { name: 'GoodCo',
@@ -62,7 +62,7 @@ Startup.create([
 
     ceo_name: 'Samar Birwadker',
     ceo_email: 'samar@good.co',
-    ceo_avatar_path: '/assets/goodco.png',
+    ceo_avatar_path: '/assets/Samar.jpg',
   },
   
   { name: 'ParLevel',
@@ -73,7 +73,7 @@ Startup.create([
 
     ceo_name: 'Luis Pablo Gonzalez',
     ceo_email: 'luisp@parlevelsystems.com',
-    ceo_avatar_path: '/assets/parlevel.png',
+    ceo_avatar_path: '/assets/LuisP.jpg',
   },
   
   { name: 'Postmaster',
@@ -84,7 +84,7 @@ Startup.create([
 
     ceo_name: 'Jesse Lovelace',
     ceo_email: 'jesse@postmaster.io',
-    ceo_avatar_path: '/assets/postmaster.png',
+    ceo_avatar_path: '/assets/Jesse.jpg',
   },
   
   { name: 'Skit!',
@@ -95,7 +95,7 @@ Startup.create([
 
     ceo_name: 'Robin Johnson',
     ceo_email: 'robin@skitapp.com',
-    ceo_avatar_path: '/assets/skit.png',
+    ceo_avatar_path: '/assets/Robin.jpg',
   },
   
   { name: 'Threat Stack',
@@ -106,7 +106,7 @@ Startup.create([
 
     ceo_name: 'Jason Meller',
     ceo_email: 'jason@threatstack.com',
-    ceo_avatar_path: '/assets/threatstack.png',
+    ceo_avatar_path: '/assets/Jason.jpg',
   },
   
   { name: 'TrueAbility',
@@ -117,7 +117,7 @@ Startup.create([
 
     ceo_name: 'Luke Owen',
     ceo_email: 'luke@trueability.com',
-    ceo_avatar_path: '/assets/trueability.png',
+    ceo_avatar_path: '/assets/Luke.jpg',
   },
   
   { name: 'Ziptask',
@@ -128,7 +128,7 @@ Startup.create([
 
     ceo_name: 'Shawn Livermore',
     ceo_email: 'shawn@ziptask.com',
-    ceo_avatar_path: '/assets/ziptask.png',
+    ceo_avatar_path: '/assets/Shawn.jpg',
   },
   
   { name: 'ZeroVM',
@@ -139,6 +139,6 @@ Startup.create([
 
     ceo_name: 'Camuel Gilyadov',
     ceo_email: 'camuel@litestack.com',
-    ceo_avatar_path: '/assets/betterfit.png',
+    ceo_avatar_path: '/assets/Camuel.jpg',
   },
 ])

@@ -3,8 +3,8 @@ DemoDayBuddy::Application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    :user_name => "TechStars",
-    :password => "F4:f*rWi6",
+    :user_name => "jeremy@techstars.org",
+    :password => "t3chstars",
     :domain => "techstars.com",
     :address => "smtp.sendgrid.net",
     :port => 587,

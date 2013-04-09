@@ -4,7 +4,7 @@
 class DevelopmentMailInterceptor
   def self.delivering_email(message)
     message.subject = "[#{message.to}] #{message.subject}"
-    message.to = "david@davidchouinard.com"
+    message.to = "daniel.andrews@techstars.com"
     message.content_type = "text/html"
   end
 end
