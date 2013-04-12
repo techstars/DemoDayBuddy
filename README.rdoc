@@ -1,13 +1,21 @@
-* Setup Steps *
+TechStars DemoDay Application
+-----------------------------
+
+Setup Steps
+-----------
+
     git clone git@github.com:techstars/DemoDayBuddy.git
     cd DemoDayBuddy
-    bundle install    
+    bundle install
     createuser demodaybudy -P
     rake db:create
     rake db:migrate
     rails server
 
-* Heroku Setup Steps *
+
+Heroku Setup Steps
+------------------
+
     heroku apps:create
     git push heroku master
     heroku addons | grep POSTGRES
@@ -16,5 +24,12 @@
     heroku pg:promote HEROKU_POSTGRESQL_YELLOW_URL
     heroku pg:info
     heroku pg:psql
-    heroku run rake db:migrate    
+    heroku run rake db:migrate
     heroku run rake db:seed
+
+AngelList App Setup Steps
+-------------------------
+
+set Redirect URI to:
+
+    {APP_URL}/users/auth/angellist/callback
