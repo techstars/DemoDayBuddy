@@ -99,7 +99,7 @@ Startup.create([
     email: 'founders@skitapp.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 1),
     angellist_id: 182290,
-    url: 'http://www.skitapp.com/'
+    url: 'http://www.skitapp.com/',
 
     ceo_name: 'Robin Johnson',
     ceo_email: 'robin@skitapp.com',
