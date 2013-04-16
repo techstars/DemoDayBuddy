@@ -66,7 +66,7 @@ Startup.create([
   },
   
   { name: 'ParLevel',
-    pitch: 'What\'s your PAR level?',
+    pitch: 'Maximize profits in your vending business.',
     email: 'founders@parlevelsystems.com',
     pitch_time: Time.utc(2013, 4, 18, 17, 6),
     angellist_id: 163247,
@@ -110,7 +110,7 @@ Startup.create([
   },
   
   { name: 'TrueAbility',
-    pitch: 'Hire great techs.',
+    pitch: 'Technical skills assessment in the cloud--a flight Simulator for IT jobs.',
     email: 'founders@trueability.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 15),
     angellist_id: 120248,
