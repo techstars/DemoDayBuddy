@@ -15,6 +15,7 @@ Startup.create([
     email: 'founders@cloudoptions.com',
     pitch_time: Time.utc(2013, 4, 18, 16, 27),
     angellist_id: 138507,
+    url: 'http://www.cloudoptions.com/',                  
 
     ceo_name: 'Sarah Cochrane',
     ceo_email: 'sarah@cloudoptions.com',
@@ -26,6 +27,7 @@ Startup.create([
     email: 'founders@goconspire.com',
     pitch_time: Time.utc(2013, 4, 18, 16, 38),
     angellist_id: 117515,
+    url: 'https://goconspire.com/',              
 
     ceo_name: 'Alex Devkar',
     ceo_email: 'alex@goconspire.com',
@@ -37,6 +39,7 @@ Startup.create([
     email: 'founders@datarobot.com',
     pitch_time: Time.utc(2013, 4, 18, 16, 45),
     angellist_id: 182467,
+    url: 'http://www.datarobot.com/',                  
 
     ceo_name: 'Jeremy Achin',
     ceo_email: 'jeremy@datarobot.com',
@@ -48,7 +51,8 @@ Startup.create([
     email: 'founders@drifty.com',
     pitch_time: Time.utc(2013, 4, 18, 16, 52),
     angellist_id: 66850,
-
+    url: 'http://drifty.com/',
+                  
     ceo_name: 'Ben Sperry',
     ceo_email: 'ben@drifty.com',
     ceo_avatar_path: '/assets/Ben.jpg',
@@ -59,6 +63,7 @@ Startup.create([
     email: 'founders@good.co',
     pitch_time: Time.utc(2013, 4, 18, 16, 59),
     angellist_id: 142940,
+    url: 'http://good.co/',
 
     ceo_name: 'Samar Birwadker',
     ceo_email: 'samar@good.co',
@@ -70,6 +75,7 @@ Startup.create([
     email: 'founders@parlevelsystems.com',
     pitch_time: Time.utc(2013, 4, 18, 17, 6),
     angellist_id: 163247,
+    url: 'http://parlevelsystems.com',
 
     ceo_name: 'Luis Pablo Gonzalez',
     ceo_email: 'luisp@parlevelsystems.com',
@@ -81,6 +87,7 @@ Startup.create([
     email: 'founders@postmaster.io',
     pitch_time: Time.utc(2013, 4, 18, 17, 13),
     angellist_id: 125519,
+    url: 'https://www.postmaster.io/',              
 
     ceo_name: 'Jesse Lovelace',
     ceo_email: 'jesse@postmaster.io',
@@ -92,6 +99,7 @@ Startup.create([
     email: 'founders@skitapp.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 1),
     angellist_id: 182290,
+    url: 'http://www.skitapp.com/'
 
     ceo_name: 'Robin Johnson',
     ceo_email: 'robin@skitapp.com',
@@ -103,6 +111,7 @@ Startup.create([
     email: 'founders@threatstack.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 8),
     angellist_id: 138249,
+    url: 'https://www.threatstack.com',              
 
     ceo_name: 'Jason Meller',
     ceo_email: 'jason@threatstack.com',
@@ -114,6 +123,7 @@ Startup.create([
     email: 'founders@trueability.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 15),
     angellist_id: 120248,
+    url: 'http://trueability.com/',                  
 
     ceo_name: 'Luke Owen',
     ceo_email: 'luke@trueability.com',
@@ -125,6 +135,7 @@ Startup.create([
     email: 'founders@ziptask.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 22),
     angellist_id: 29925,
+    url: 'http://ziptask.com',
 
     ceo_name: 'Shawn Livermore',
     ceo_email: 'shawn@ziptask.com',
@@ -136,6 +147,7 @@ Startup.create([
     email: 'founders@litestack.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 29),
     angellist_id: 76742,
+    url: 'http://zerovm.org',
 
     ceo_name: 'Camuel Gilyadov',
     ceo_email: 'camuel@litestack.com',
