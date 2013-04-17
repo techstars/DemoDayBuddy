@@ -1,3 +1,30 @@
+<% if Rails.env.production? %>
+<% unless current_user.blank? %>
+<script>
+  mixpanel.identify(<%= current_user.id %>);
+  mixpanel.people.increment("TechStars DemoDay Visits");
+  mixpanel.people.set({
+  "$email": "<%= current_user.email %>",
+  "$name": "<%= current_user.name %>",
+  "$uid": "<%= current_user.uid %>",
+  "$byline": "<%= current_user.byline %>",
+  "$angellist_url": "<%= current_user.angellist_url %>",
+  "$twitter_url": "<%= current_user.twitter_url %>",
+  "$linkedin_url": "<%= current_user.linkedin_url %>",
+  "$avatar": "<%= current_user.avatar %>",
+  "$current_sign_in_at": "<%= current_user.current_sign_in_at %>",
+  "$sign_in_count": "<%= current_user.sign_in_count %>",
+  "$last_login": "<%= current_user.last_sign_in_at %>",
+  "$current_sign_in_ip": "<%= current_user.current_sign_in_ip %>",
+  "$last_sign_in_ip": "<%= current_user.last_sign_in_ip %>",
+  "$created": "<%= current_user.created_at %>",
+  "$updated": "<%= current_user.updated_at %>"
+  });
+  mixpanel.track_links("a", "Link Clicked", {'referrer': document.referrer });
+</script>
+<% end %>
+<% end %>
+
 <% @startups.each do |startup| %>
 
   <div class="box <%= startup["active"] ? 'box-active' : '' %>">
@@ -46,7 +73,7 @@
 
 <footer>
   <% if user_signed_in? %>
-    Signed in as <%= current_user.name %> · <%= link_to('Sign out', destroy_user_session_path, :method => :delete) %>
+    Signed in as <%= current_user.name %> · <%= link_to('Sign out', destroy_user_session_path, {:method => :get}) %>
   <% else %>
     <%= link_to('Sign in', new_user_session_path) %>
   <% end %>
