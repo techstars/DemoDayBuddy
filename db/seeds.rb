@@ -95,7 +95,7 @@ Startup.create([
   },
   
   { name: 'Skit!',
-    pitch: 'Tell your story.',
+    pitch: 'Remixable, animated, social stories.',
     email: 'founders@skitapp.com',
     pitch_time: Time.utc(2013, 4, 18, 18, 1),
     angellist_id: 182290,
